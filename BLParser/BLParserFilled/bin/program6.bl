@@ -1,0 +1,12 @@
+PROGRAM Test IS
+
+BEGIN
+  one
+  WHILE bad DO
+    two
+    IF next-is-empty THEN
+      move
+    END IF
+    one
+  END WHILE
+END Test

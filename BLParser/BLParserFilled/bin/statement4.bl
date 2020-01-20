@@ -1,0 +1,13 @@
+IF next-is-not-enemy THEN
+  END IF
+  IF random THEN
+    turnleft
+    infect
+  ELSE
+    WHILE next-is-friend THEN
+        turnleft
+    END WHILE
+    go-for-it
+    turnright
+    look-for-something
+  END IF

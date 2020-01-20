@@ -1,0 +1,9 @@
+PROGRAM Test IS
+
+BEGIN
+  WHILE true DO
+    turnleft
+    move
+    turnright
+  END WHILE
+END Test
